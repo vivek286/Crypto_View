@@ -121,3 +121,9 @@
     flex-direction: column;
   }
 }
+.footer11{
+  height: 30px;
+  width: 100%;
+  background-color: red;
+color: darkblue;
+}

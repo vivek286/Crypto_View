@@ -26,7 +26,7 @@ export default function Home(props) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <h1>COINMARKET</h1>
+      <h1>COIN MARKET</h1>
 
       <table className="table">
         <thead>
@@ -62,9 +62,9 @@ export default function Home(props) {
           ))}
         </tbody>
       </table>
-      <footer styles="background-color:grey; color: red; text-aling: center;">
-                    @VIVEK SOLANKI
-      </footer>
+      <div className='footer'>
+                    @ VIVEK SOLANKI
+      </div>
 
     </div>
   )
