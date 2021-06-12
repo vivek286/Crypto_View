@@ -22,11 +22,11 @@ export default function Home(props) {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Coinmarketcap clone</title>
+        <title>Coinmarket</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <h1>Coinmarketcap clone</h1>
+      <h1>COINMARKET</h1>
 
       <table className="table">
         <thead>
@@ -62,6 +62,9 @@ export default function Home(props) {
           ))}
         </tbody>
       </table>
+      <footer styles="background-color:grey; color: red; text-aling: center;">
+                    @VIVEK SOLANKI
+      </footer>
 
     </div>
   )
