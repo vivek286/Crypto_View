@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "start:dev": "webpack-dev-server --open --config webpack/webpack.config.dev.js",
     "start": "next start"
   },
   "dependencies": {
