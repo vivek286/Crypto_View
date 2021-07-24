@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "crypto-dashboard",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

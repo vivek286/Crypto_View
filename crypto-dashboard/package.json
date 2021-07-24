@@ -3,10 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "next dev",
     "build": "next build",
     "start:dev": "webpack-dev-server --open --config webpack/webpack.config.dev.js",
-    "start": "next start"
+    "start": "next start",
+    "exec": "next start"
+    ,  "homepage": "https://vivek286.github.io/crypto-dashboard"
   },
   "dependencies": {
     "bootstrap": "^5.0.1",
